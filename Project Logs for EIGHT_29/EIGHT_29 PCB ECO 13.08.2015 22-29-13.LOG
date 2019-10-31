@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=EIGHT3_A_DR Pin=DD1-31
+Removed Pin From Net: NetName=EIGHT3_F_DR Pin=DD1-40
+Added Pin To Net: NetName=EIGHT3_F_DR Pin=DD1-31
+Added Pin To Net: NetName=EIGHT3_A_DR Pin=DD1-40

@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=SWCLK Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=VCC Pin=C10-2
+Removed Pin From Net: NetName=NetBL1_3 Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=VCC Pin=C13-2
+Removed Pin From Net: NetName=GND Pin=GB1-1
+Removed Pin From Net: NetName=NetDD1_1 Pin=GB1-2
+Removed Pin From Net: NetName=+3.3V Pin=XP6-2
+Removed Member From Class: ClassName=EIGHT_29 Member=GB1
+Change Component DesignItemId : Designator=C9 Old DesignItemId=Cap_0603 New DesignItemId=Cap_0805
+Change Component DesignItemId : Designator=C12 Old DesignItemId=Cap_0603 New DesignItemId=Cap_0805
+Change Component DesignItemId : Designator=C10 Old DesignItemId=Cap_0603 New DesignItemId=EECF5R5U224
+Change Component Footprint: Designator=C9 Old Footprint=CAP_0603 New Footprint=CAP_0805
+Change Component Footprint: Designator=C12 Old Footprint=CAP_0603 New Footprint=CAP_0805
+Change Component Footprint: Designator=C10 Old Footprint=CAP_0603 New Footprint=EECF5R5U224
+Change Component Comment : Designator=C10 Old Comment=0.1uF New Comment=EECF5R5U224
+Change Component Comment : Designator=C11 Old Comment=4,7uF New Comment=0.1uF
+Change Component Comment : Designator=C8 Old Comment=100 New Comment=4,7uF
+Change Component Comment : Designator=XP6 Old Comment=CONNECT_3 New Comment=
+Change Component Comment : Designator=XP7 Old Comment=CONNECT_JTAG New Comment=
+Change Component Designator: OldDesignator=R77 NewDesignator=R80
+Change Component Designator: OldDesignator=R78 NewDesignator=R77
+Change Component Designator: OldDesignator=R79 NewDesignator=R81
+Change Component Designator: OldDesignator=R80 NewDesignator=R78
+Change Component Designator: OldDesignator=R81 NewDesignator=R79
+Change Component Designator: OldDesignator=XP5 NewDesignator=XP7
+Change Component Designator: OldDesignator=XP6 NewDesignator=XP5
+Change Component Designator: OldDesignator=XP7 NewDesignator=XP6
+Change Component Description : Designator=C11 Old Description=4.7uF 16V X7R 10% New Description=
+Change Component Description : Designator=C8 Old Description=0805 100pF 50V X7R 10% New Description=4.7uF 16V X7R 10%
+Change Component Library : Designator=C11 Old Library=PANEL.SchLib New Library=EIGHT_29.SchLib
+Added Component: Designator=C13(Cap_0805)
+Added Component: Designator=C14(CAP_0805)
+Added Component: Designator=C15(Cap_0805)
+Added Component: Designator=C16(CAP_0805)
+Added Component: Designator=DA1(SOT223)
+Added Pin To Net: NetName=+3.3V Pin=C8-2
+Added Pin To Net: NetName=NetDD1_1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=VCC Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=SWCLK Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=VCC Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=NetBL1_3 Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=DA1-1
+Added Pin To Net: NetName=+3.3V Pin=DA1-2
+Added Pin To Net: NetName=+3.3V Pin=DA1-4
+Change Net Name : Old Net Name=NetDD1_1 New Net Name=NetC10_1
+Change Net Name : Old Net Name=NetR77_1 New Net Name=NetR80_1
+Change Net Name : Old Net Name=NetR78_1 New Net Name=NetR77_1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=DA1-3
+Added Pin To Net: NetName=NetC16_2 Pin=XP5-2
+Added Net: Name=NetC16_2
+Added Member To Class: ClassName=EIGHT_29 Member=Component C14 0.1uF
+Added Member To Class: ClassName=EIGHT_29 Member=Component C15 4,7uF
+Added Member To Class: ClassName=EIGHT_29 Member=Component C16 0.1uF
+Added Member To Class: ClassName=EIGHT_29 Member=Component DA1 TLV1117 3.3

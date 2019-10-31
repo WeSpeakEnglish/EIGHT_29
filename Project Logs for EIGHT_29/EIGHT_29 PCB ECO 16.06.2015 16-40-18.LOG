@@ -1,0 +1,78 @@
+Removed Pin From Net: NetName=EIGHT0_A Pin=XP1-1
+Removed Pin From Net: NetName=EIGHT0_B Pin=XP1-2
+Removed Pin From Net: NetName=EIGHT0_C Pin=XP1-3
+Removed Pin From Net: NetName=EIGHT0_D Pin=XP1-4
+Removed Pin From Net: NetName=EIGHT0_E Pin=XP1-5
+Removed Pin From Net: NetName=EIGHT0_F Pin=XP1-6
+Removed Pin From Net: NetName=EIGHT0_G Pin=XP1-7
+Removed Pin From Net: NetName=EIGHT1_A Pin=XP2-1
+Removed Pin From Net: NetName=EIGHT1_B Pin=XP2-2
+Removed Pin From Net: NetName=EIGHT1_C Pin=XP2-3
+Removed Pin From Net: NetName=EIGHT1_D Pin=XP2-4
+Removed Pin From Net: NetName=EIGHT1_E Pin=XP2-5
+Removed Pin From Net: NetName=EIGHT1_F Pin=XP2-6
+Removed Pin From Net: NetName=EIGHT1_G Pin=XP2-7
+Removed Pin From Net: NetName=EIGHT2_A Pin=XP3-1
+Removed Pin From Net: NetName=EIGHT2_B Pin=XP3-2
+Removed Pin From Net: NetName=EIGHT2_C Pin=XP3-3
+Removed Pin From Net: NetName=EIGHT2_D Pin=XP3-4
+Removed Pin From Net: NetName=EIGHT2_E Pin=XP3-5
+Removed Pin From Net: NetName=EIGHT2_F Pin=XP3-6
+Removed Pin From Net: NetName=EIGHT2_G Pin=XP3-7
+Removed Pin From Net: NetName=EIGHT3_A Pin=XP4-1
+Removed Pin From Net: NetName=EIGHT3_B Pin=XP4-2
+Removed Pin From Net: NetName=EIGHT3_C Pin=XP4-3
+Removed Pin From Net: NetName=EIGHT3_D Pin=XP4-4
+Removed Pin From Net: NetName=EIGHT3_E Pin=XP4-5
+Removed Pin From Net: NetName=EIGHT3_F Pin=XP4-6
+Removed Pin From Net: NetName=EIGHT3_G Pin=XP4-7
+Change Component Footprint: Designator=XP1 Old Footprint=CONN2-8 New Footprint=Res_0805
+Change Component Comment : Designator=XP2 Old Comment=Conn_EIGHT(7) New Comment=Conn_EIGHT8
+Change Component Comment : Designator=XP3 Old Comment=Conn_EIGHT(7) New Comment=Conn_EIGHT8
+Change Component Comment : Designator=XP4 Old Comment=Conn_EIGHT(7) New Comment=Conn_EIGHT8
+Change Component Comment : Designator=XP1 Old Comment=Conn_EIGHT(7) New Comment=connect PPS (1k)
+Change Component Designator: OldDesignator=R76 NewDesignator=R77
+Change Component Designator: OldDesignator=R77 NewDesignator=R78
+Change Component Designator: OldDesignator=R78 NewDesignator=R79
+Change Component Designator: OldDesignator=R79 NewDesignator=R80
+Change Component Designator: OldDesignator=R80 NewDesignator=R81
+Change Component Designator: OldDesignator=R81 NewDesignator=R82
+Change Component Designator: OldDesignator=XP1 NewDesignator=R76
+Change Component Designator: OldDesignator=XP2 NewDesignator=XP1
+Change Component Designator: OldDesignator=XP3 NewDesignator=XP2
+Change Component Designator: OldDesignator=XP4 NewDesignator=XP3
+Added Component: Designator=XP4(CONN2-8)
+Added Pin To Net: NetName=PPS Pin=R76-1
+Added Pin To Net: NetName=IRD_OUT Pin=R76-2
+Added Pin To Net: NetName=EIGHT0_A Pin=XP1-1
+Added Pin To Net: NetName=EIGHT0_B Pin=XP1-2
+Added Pin To Net: NetName=EIGHT0_C Pin=XP1-3
+Added Pin To Net: NetName=EIGHT0_D Pin=XP1-4
+Added Pin To Net: NetName=EIGHT0_E Pin=XP1-5
+Added Pin To Net: NetName=EIGHT0_F Pin=XP1-6
+Added Pin To Net: NetName=EIGHT0_G Pin=XP1-7
+Added Pin To Net: NetName=EIGHT_DP Pin=XP1-8
+Added Pin To Net: NetName=EIGHT1_A Pin=XP2-1
+Added Pin To Net: NetName=EIGHT1_B Pin=XP2-2
+Added Pin To Net: NetName=EIGHT1_C Pin=XP2-3
+Added Pin To Net: NetName=EIGHT1_D Pin=XP2-4
+Added Pin To Net: NetName=EIGHT1_E Pin=XP2-5
+Added Pin To Net: NetName=EIGHT1_F Pin=XP2-6
+Added Pin To Net: NetName=EIGHT1_G Pin=XP2-7
+Added Pin To Net: NetName=EIGHT2_A Pin=XP3-1
+Added Pin To Net: NetName=EIGHT2_B Pin=XP3-2
+Added Pin To Net: NetName=EIGHT2_C Pin=XP3-3
+Added Pin To Net: NetName=EIGHT2_D Pin=XP3-4
+Added Pin To Net: NetName=EIGHT2_E Pin=XP3-5
+Added Pin To Net: NetName=EIGHT2_F Pin=XP3-6
+Added Pin To Net: NetName=EIGHT2_G Pin=XP3-7
+Added Pin To Net: NetName=EIGHT3_A Pin=XP4-1
+Added Pin To Net: NetName=EIGHT3_B Pin=XP4-2
+Added Pin To Net: NetName=EIGHT3_C Pin=XP4-3
+Added Pin To Net: NetName=EIGHT3_D Pin=XP4-4
+Added Pin To Net: NetName=EIGHT3_E Pin=XP4-5
+Added Pin To Net: NetName=EIGHT3_F Pin=XP4-6
+Added Pin To Net: NetName=EIGHT3_G Pin=XP4-7
+Change Net Name : Old Net Name=NetR77_1 New Net Name=NetR78_1
+Change Net Name : Old Net Name=NetR80_1 New Net Name=NetR81_1
+Added Member To Class: ClassName=EIGHT_29 Member=Component R82 100

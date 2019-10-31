@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=PPS Pin=C6-2
+Removed Pin From Net: NetName=PPS Pin=R64-2
+Removed Pin From Net: NetName=EIGHT1_G_DR Pin=R65-2
+Removed Pin From Net: NetName=SWCLK Pin=R66-2
+Removed Member From Class: ClassName=EIGHT_29 Member=C6
+Removed Member From Class: ClassName=EIGHT_29 Member=R64
+Removed Member From Class: ClassName=EIGHT_29 Member=R65
+Removed Member From Class: ClassName=EIGHT_29 Member=R66
+Added Pin To Net: NetName=PPS Pin=DD1-10
+Added Pin To Net: NetName=EIGHT1_G_DR Pin=DD1-34
+Added Pin To Net: NetName=SWCLK Pin=R19-1
+Added Pin To Net: NetName=EIGHT1_G_DR Pin=XP7-4
+Change Net Name : Old Net Name=SWCLK New Net Name=EIGHT0_DP_DR

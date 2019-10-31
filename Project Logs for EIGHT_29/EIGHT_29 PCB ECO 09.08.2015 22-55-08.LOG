@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=EIGHT1_G_DR Pin=R64-2
+Removed Member From Class: ClassName=EIGHT_29 Member=R64
+Added Pin To Net: NetName=EIGHT1_G_DR Pin=DD1-2

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=EIGHT3_B_DR Pin=XP6-1
+Removed Pin From Net: NetName=EIGHT3_C_DR Pin=XP6-2
+Removed Pin From Net: NetName=UART_RX Pin=XP6-3
+Removed Pin From Net: NetName=PPS Pin=XP6-4
+Removed Pin From Net: NetName=VCC Pin=XP6-5
+Removed Pin From Net: NetName=GND Pin=XP6-6
+Removed Member From Class: ClassName=EIGHT_29 Member=XP6
+Added Component: Designator=XP(LEGS8)
+Added Pin To Net: NetName=EIGHT3_B_DR Pin=XP-1
+Added Pin To Net: NetName=EIGHT3_C_DR Pin=XP-2
+Added Pin To Net: NetName=UART_RX Pin=XP-3
+Added Pin To Net: NetName=PPS Pin=XP-4
+Added Pin To Net: NetName=VCC Pin=XP-5
+Added Pin To Net: NetName=GND Pin=XP-6
+Added Member To Class: ClassName=EIGHT_29 Member=Component XP Connect_2.54_8_2

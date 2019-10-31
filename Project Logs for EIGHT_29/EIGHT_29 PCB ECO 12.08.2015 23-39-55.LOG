@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=EIGHT_DP Pin=XP1-8
+Change Net Name : Old Net Name=EIGHT_DP New Net Name=EIGHT0_DP
+Added Pin To Net: NetName=EIGHT_DP Pin=XP1-8
+Added Net: Name=EIGHT_DP

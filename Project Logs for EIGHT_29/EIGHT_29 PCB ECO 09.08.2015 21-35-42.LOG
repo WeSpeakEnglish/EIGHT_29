@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=EIGHT0_A_DR Pin=DD1-10
+Removed Pin From Net: NetName=NetC6_1 Pin=DD1-11
+Removed Pin From Net: NetName=EIGHT1_A_DR Pin=DD1-29
+Removed Pin From Net: NetName=ZONE_CONTROL Pin=R67-1
+Removed Pin From Net: NetName=NetC6_1 Pin=R67-2
+Removed Pin From Net: NetName=EIGHT3_B_DR Pin=XP6-1
+Removed Pin From Net: NetName=EIGHT3_C_DR Pin=XP6-2
+Removed Pin From Net: NetName=UART_RX Pin=XP6-3
+Removed Pin From Net: NetName=GND Pin=XP6-6
+Removed Member From Class: ClassName=EIGHT_29 Member=R67
+Added Pin To Net: NetName=NetC6_1 Pin=DD1-10
+Added Pin To Net: NetName=EIGHT1_A_DR Pin=DD1-11
+Added Pin To Net: NetName=EIGHT0_A_DR Pin=DD1-29
+Added Pin To Net: NetName=UART_RX Pin=XP6-1
+Added Pin To Net: NetName=UART_RX Pin=XP6-2
+Added Pin To Net: NetName=PPS Pin=XP6-3
+Added Pin To Net: NetName=VCC Pin=XP6-6
+Added Pin To Net: NetName=GND Pin=XP6-7
+Added Pin To Net: NetName=GND Pin=XP6-8
+Added Member To Class: ClassName=EIGHT_29 Member=Component R55 100k
+Added Member To Class: ClassName=EIGHT_29 Member=Component R62 5.1k
+Added Member To Class: ClassName=EIGHT_29 Member=Component R74 5.1k
+Added Member To Class: ClassName=EIGHT_29 Member=Component R76 100
